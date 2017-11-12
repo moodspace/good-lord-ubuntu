@@ -8,7 +8,6 @@ auto-indent
 autoclose-html
 busy-signal
 docblockr
-exception-reporting
 hyperclick
 indent-guide-improved
 intentions
@@ -26,7 +25,6 @@ linter-sass-lint
 linter-swagger
 linter-ui-default
 merge-conflicts
-metrics
 minimap
 minimap-find-and-replace
 minimap-pigments

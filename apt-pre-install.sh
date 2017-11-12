@@ -1,10 +1,14 @@
 #!/bin/bash
 
-cp lists/sources.list lists/sources.list.save
+rm -rf tmp
 
-sed -i 's%\[YOUR_MIRROR_HERE\]%http://mirror.math.princeton.edu/pub/ubuntu/%' lists/sources.list.save
+mkdir -p tmp
 
-sudo cp lists/sources.list.save /etc/apt/sources.list
+cp lists/sources.list tmp/sources.list.save
+
+sed -i 's%\[YOUR_MIRROR_HERE\]%http://mirror.math.princeton.edu/pub/ubuntu/%' tmp/sources.list.save
+
+sudo cp tmp/sources.list.save /etc/apt/sources.list
 
 sudo apt-get update
 

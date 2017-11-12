@@ -16,13 +16,11 @@ do
   let "deb_count_download += 1"
 done
 
-for deb_name in $( ls )
+for deb_name in $( ls | grep .deb )
 do
-  sudo dpkg -i $deb_name
+  yes | sudo gdebi $deb_name
   let "deb_count_install += 1"
 done
-
-sudo apt-get install -yf
 
 echo $deb_count_install DEB packages installed!
 

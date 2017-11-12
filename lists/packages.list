@@ -5,9 +5,11 @@ autoconf
 baobab
 build-essential
 caja
+caja-gtkhash
 caja-share
 chromium-browser
 cloc
+cmake
 compizconfig-settings-manager
 curl
 dconf-editor
@@ -15,11 +17,13 @@ fcitx
 feh
 filezilla
 gcc
+gdebi
 gedit
 gimp
 git
 gnome-themes-standard
 gparted
+grub-customizer
 gtkhash
 heroku
 i3-wm
@@ -28,6 +32,8 @@ i3status
 imagemagick
 kdiff3
 libqt5opengl5
+libreadline-dev
+libssl-dev
 lxappearance
 make
 meshlab
@@ -48,6 +54,7 @@ pulseaudio-equalizer
 python-gpgme
 python-nose
 python3-pyqt4
+q4wine
 redshift
 redshift-gtk
 samba
@@ -56,6 +63,7 @@ spotify-client
 sqlitebrowser
 sublime-text-installer
 suckless-tools
+telegram
 texlive-fonts-recommended
 tidy
 ubuntu-make
@@ -63,9 +71,11 @@ ubuntu-restricted-addons
 ubuntu-restricted-extras
 ukuu
 uncrustify
+unetbootin
 variety
 vibrancy-colors
 vim
 vlc
 wine-stable
 xdotool
+zlib1g-dev

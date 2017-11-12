@@ -1,7 +1,8 @@
 # Ruby
-# Change to login shell
 
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 echo >> ~/.bashrc
 
@@ -11,10 +12,12 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
 echo >> ~/.bashrc
 
-source ~/.bashrc
+PATH="$HOME/.rbenv/bin:$PATH"
 
-git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+rbenv init -
 
 rbenv install 2.4.2
 
-gem install bundler rails
+rbenv global 2.4.2
+
+$HOME/.rbenv/shims/gem install bundler rails

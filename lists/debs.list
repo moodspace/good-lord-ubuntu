@@ -1,10 +1,11 @@
-http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~zesty_amd64.deb
+http://archive.getdeb.net/ubuntu/pool/apps/u/ubuntu-tweak/ubuntu-tweak_0.8.7-1~getdeb2~xenial_all.deb
+http://download.virtualbox.org/virtualbox/5.2.2/virtualbox-5.2_5.2.2-119230~Ubuntu~zesty_amd64.deb
+http://get.code-industry.net/public/master-pdf-editor-4.3.61_qt5.amd64.deb
+https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.3.10-1ubuntu17.10-amd64.deb
+https://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
 https://dl.google.com/linux/direct/google-chrome-beta_current_amd64.deb
-https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb
+https://download.teamviewer.com/download/teamviewer_i386.deb
 https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.2-amd64.deb
 https://launchpad.net/ubuntu/+archive/primary/+files/libgcrypt11_1.5.3-2ubuntu4.2_amd64.deb
-http://get.code-industry.net/public/master-pdf-editor-4.3.61_qt5.amd64.deb
-https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.3.9-1ubuntu16.10-amd64.deb
 https://repo.skype.com/latest/skypeforlinux-64.deb
-https://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
-http://archive.getdeb.net/ubuntu/pool/apps/u/ubuntu-tweak/ubuntu-tweak_0.8.7-1~getdeb2~xenial_all.deb
+https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb

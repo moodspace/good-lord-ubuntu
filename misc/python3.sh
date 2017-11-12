@@ -10,16 +10,18 @@ chmod +x Miniconda*.sh
 
 ./Miniconda*.sh -b -p
 
-echo >> ~/.profile
+echo >> ~/.bashrc
 
-cat ~/.bashrc | grep conda3 >> ~/.profile
+echo source $HOME/miniconda3/bin/activate >> ~/.bashrc
 
-echo >> ~/.profile
+echo >> ~/.bashrc
 
-source ~/.bashrc
+source $HOME/miniconda3/bin/activate
 
-conda install opencv -y
+$HOME/miniconda3/bin/conda install opencv -y
 
-pip install --upgrade pip && pip install autopep8 pycodestyle flask image keras tensorflow gensim nltk numpy scipy pandas
+$HOME/miniconda3/bin/pip install --upgrade pip
+
+$HOME/miniconda3/bin/pip install --upgrade autopep8 flask gensim image keras nltk numpy pandas pycodestyle scipy tensorflow
 
 cd ../..
