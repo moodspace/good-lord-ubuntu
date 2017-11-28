@@ -4,8 +4,12 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | bash
 
 # Term login & colors
 
+dconf write /org/mate/terminal/profiles/default/allow-bold true
 dconf write /org/mate/terminal/profiles/default/login-shell true
-dconf write /org/mate/terminal/profiles/default/palette "'#1B1B1D1D1E1E:#F9F926267272:#8282B4B41414:#FDFD97971F1F:#4E4E8282AAAA:#8C8C5454FEFE:#464654545757:#CCCCCCCCC6C6:#505053535454:#FFFF59599595:#B6B6E3E35454:#FEFEEDED6C6C:#0C0C7373C2C2:#9E9E6F6FFEFE:#89899C9CA1A1:#F8F8F8F8F2F2'"
+dconf write /org/mate/terminal/profiles/default/background-color "'#1D1D1F1F2121'"
+dconf write /org/mate/terminal/profiles/default/foreground-color "'#C5C5C8C8C6C6'"
+dconf write /org/mate/terminal/profiles/default/use-theme-colors false
+dconf write /org/mate/terminal/profiles/default/palette "'#28282A2A2E2E:#A5A542424242:#8C8B94944040:#DEDE93935F5E:#5F5F81809D9D:#858467668F8F:#5E5E8D8D8787:#707078788080:#37373B3B4141:#CCCC66666666:#B5B5BDBD6868:#F0F0C6C57473:#8181A2A2BEBE:#B2B29494BBBB:#8A8ABEBEB7B7:#C5C5C8C8C6C6'"
 
 # Manual ip
 
