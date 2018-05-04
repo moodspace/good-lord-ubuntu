@@ -22,7 +22,7 @@ git config --global merge.tool p4merge
 
 git config --global diff.tool p4merge
 
-git config --global user.name '$git_user'
+git config --global user.name "$git_user"
 
 git config --global user.email $git_email
 
